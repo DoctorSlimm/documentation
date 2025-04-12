@@ -1,0 +1,50 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Monetano Documentation",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#1C1C1C",
+    "light": "#FAEBD1",
+    "dark": "#1C1C1C",
+    "anchors": {
+      "from": "#1C1C1C",
+      "to": "#404040"
+    }
+  },
+  "modeToggle": {
+    "default": "light",
+    "isHidden": true
+  },
+  "primaryTab": {
+    "name": "Home"
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:lukas@monetano.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Go to monetano.com",
+    "url": "https://monetano.com"
+  },
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "overview",
+        "publishers"
+      ]
+    },
+    {
+      "group": "API Reference",
+      "pages": [
+        "apireference"
+      ]
+    }
+  ]
+}
